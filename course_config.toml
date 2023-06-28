@@ -42,3 +42,51 @@ checksum = '6464443c64de7951cbd85b96849aa6e2'
 [exercises."osa01-Osa01_11.Calculator"]
 id = 84459
 checksum = '7f919b61302a9e09d5ea3ff672ec85dd'
+
+[exercises."osa02-Osa02_01.HelloThymeleaf"]
+id = 84460
+checksum = '0b9d95be337200f75b77de077bf6f95c'
+
+[exercises."osa02-Osa02_02.HtmlPractice"]
+id = 84461
+checksum = '492d11914e29c0a75dd2e4834a11349f'
+
+[exercises."osa02-Osa02_03.HelloModel"]
+id = 84462
+checksum = '8b235a51308bf664a1059616dd8e8a4b'
+
+[exercises."osa02-Osa02_04.HelloList"]
+id = 84463
+checksum = 'fa2443b2c7fdc9fac567a7ef98b0907a'
+
+[exercises."osa02-Osa02_05.HelloObjects"]
+id = 84464
+checksum = '81093ee12ada674392d0864393043bb1'
+
+[exercises."osa02-Osa02_06.HelloForm"]
+id = 84465
+checksum = 'f86e62687eefb132b02ae9f01472b21a'
+
+[exercises."osa02-Osa02_07.HelloPostRedirectGet"]
+id = 84466
+checksum = '63d41d4073f6c826add42c8279766bed'
+
+[exercises."osa02-Osa02_08.ItemDatabase"]
+id = 84467
+checksum = '6078b8a7b78b7c69bcb450ce7b5b2166'
+
+[exercises."osa02-Osa02_09.PersonDatabase"]
+id = 84468
+checksum = '69681031a4699f23714944b6d8359f51'
+
+[exercises."osa02-Osa02_10.HelloPathVariables"]
+id = 84469
+checksum = '4c7e5cdec664770f069722c2d7bbccab'
+
+[exercises."osa02-Osa02_11.HelloIndividualPages"]
+id = 84470
+checksum = '832a297423ae597aca5a73ac8e59b406'
+
+[exercises."osa02-Osa02_12.TodoApplication"]
+id = 84471
+checksum = 'f4dc883912d334c7cd7e4ed3fbe03fcc'
