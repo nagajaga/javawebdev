@@ -1,0 +1,44 @@
+course = 'mooc-wepa-itseopiskelu'
+[exercises."osa01-Osa01_01.HelloBrowser"]
+id = 84449
+checksum = 'b8ca50da1e2c041cdf844bb4139beecd'
+
+[exercises."osa01-Osa01_02.HelloServer"]
+id = 84450
+checksum = 'e062b37710fe53689df478b67aeebde3'
+
+[exercises."osa01-Osa01_03.HelloRedirectLoop"]
+id = 84451
+checksum = '23105db41d1941735ee3cde02bd3529e'
+
+[exercises."osa01-Osa01_04.HelloWorld"]
+id = 84452
+checksum = '08bae3d5e5dcafad7965554998e34062'
+
+[exercises."osa01-Osa01_05.HelloPath"]
+id = 84453
+checksum = '346a604a76013faa1bef88200bcc380e'
+
+[exercises."osa01-Osa01_06.HelloPaths"]
+id = 84454
+checksum = 'a82b4ef270b5e839bff0923c3a087b6c'
+
+[exercises."osa01-Osa01_07.HelloRequestParam"]
+id = 84455
+checksum = '85dbc31e03e2dcc2256f73c8970317ea'
+
+[exercises."osa01-Osa01_08.Greeting"]
+id = 84456
+checksum = '3a3c820f82ea3b2dcaefcd5686e6d41b'
+
+[exercises."osa01-Osa01_09.HelloRequestParams"]
+id = 84457
+checksum = 'd88a0a21b1dda852c16e8b0fcbd0b70c'
+
+[exercises."osa01-Osa01_10.Square"]
+id = 84458
+checksum = '6464443c64de7951cbd85b96849aa6e2'
+
+[exercises."osa01-Osa01_11.Calculator"]
+id = 84459
+checksum = '7f919b61302a9e09d5ea3ff672ec85dd'
