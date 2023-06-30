@@ -90,3 +90,35 @@ checksum = '832a297423ae597aca5a73ac8e59b406'
 [exercises."osa02-Osa02_12.TodoApplication"]
 id = 84471
 checksum = 'f4dc883912d334c7cd7e4ed3fbe03fcc'
+
+[exercises."osa03-Osa03_00.Pankkijarjestelma"]
+id = 84472
+checksum = '831d9960c003cc2adeaef5c93b442f71'
+
+[exercises."osa03-Osa03_01.NewTables"]
+id = 84473
+checksum = '89a5e1b2d6ac4e36c6316b989462caae'
+
+[exercises."osa03-Osa03_02.SimpleBanking"]
+id = 84474
+checksum = '343d2fdb58e370237a0dfcdf3d0b4084'
+
+[exercises."osa03-Osa03_03.AirportsAndAircrafts"]
+id = 84475
+checksum = 'a44467fb8dd383ba101fcda4f100b168'
+
+[exercises."osa03-Osa03_04.BankTransfer"]
+id = 84476
+checksum = '95ad91cb40b2913c4f1c4e45b3a17a7e'
+
+[exercises."osa03-Osa03_05.NamesAndAddresses"]
+id = 84477
+checksum = '7fc6ec1c4668487fe6a124e590ad8654'
+
+[exercises."osa03-Osa03_06.LastMessages"]
+id = 84478
+checksum = '95d098ec81fab7c9fb9cbe8927aeb397'
+
+[exercises."osa03-Osa03_07.ExamsAndQuestions"]
+id = 84479
+checksum = '81500874e448e8dcc1494d74543b21e5'
