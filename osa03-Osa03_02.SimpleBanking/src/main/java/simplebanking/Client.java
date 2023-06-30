@@ -17,5 +17,8 @@ public class Client extends AbstractPersistable<Long> {
 
     private String name;
 
-    // DO SOMETHING HERE
+    @OneToMany(mappedBy = "client")
+    private List<Account> accounts = new ArrayList<>();
+
+    
 }
