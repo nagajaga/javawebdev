@@ -42,7 +42,10 @@ public class BankingController {
         }
 
         // DO SOMETHING HERE
-
+        client.getAccounts().add(account);
+        clientRepository.save(client);
+        
+        
         return "redirect:/";
     }
 }
