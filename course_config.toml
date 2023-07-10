@@ -122,3 +122,27 @@ checksum = '95d098ec81fab7c9fb9cbe8927aeb397'
 [exercises."osa03-Osa03_07.ExamsAndQuestions"]
 id = 84479
 checksum = '81500874e448e8dcc1494d74543b21e5'
+
+[exercises."osa04-Osa04_01.GifBin"]
+id = 84480
+checksum = 'c710eb4237bfa58ea1850caf1d9450f7'
+
+[exercises."osa04-Osa04_02.FileManager"]
+id = 84481
+checksum = 'd7b8ecc46f1b04abfa359d7e0b014dee'
+
+[exercises."osa04-Osa04_03.Jokes"]
+id = 84482
+checksum = 'ae0cc73c140931f94e19b0ee4a9df883'
+
+[exercises."osa04-Osa04_04.Profiles"]
+id = 84483
+checksum = '519fdb8c33102199587a98e5f891bd2a'
+
+[exercises."osa04-Osa04_05.AirportsAndAircraftsTest"]
+id = 84484
+checksum = '23df2dcc7578544f2c161ce39b1c780b'
+
+[exercises."osa04-Osa04_06.MovieDatabaseTest"]
+id = 84485
+checksum = 'e0e968b3fe924fc72943002453131793'
