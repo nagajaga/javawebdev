@@ -19,6 +19,9 @@ public class AirportService {
         a.setIdentifier(identifier);
         a.setName(name);
 
+        if (airportRepository.findAll().contains(a)) {
+            return;
+        }
         airportRepository.save(a);
     }
 }
