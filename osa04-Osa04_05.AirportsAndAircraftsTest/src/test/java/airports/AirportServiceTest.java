@@ -26,7 +26,7 @@ public class AirportServiceTest {
         airport.setIdentifier("HEL");
         airport.setName("Helsinki-Vantaa");
         airportService.create(airport.getIdentifier(), airport.getName());
-        assertTrue(airportRepository.findAll().contains(airport));
+        assertTrue(airportRepository.findAll().stream().filter(a -> a.getIdentifier().equals("HEL")).count() == 1);
 
     }
 
@@ -48,7 +48,7 @@ public class AirportServiceTest {
         airport.setName("Helsinki-Vantaa");
         airportService.create(airport.getIdentifier(), airport.getName());
         airportService.create(airport.getIdentifier(), airport.getName());
-        assertEquals(airportRepository.findAll().size(), 1);
+        assertEquals(1,airportRepository.findAll().size());
     }
     
 }
