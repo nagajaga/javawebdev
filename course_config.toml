@@ -146,3 +146,35 @@ checksum = '23df2dcc7578544f2c161ce39b1c780b'
 [exercises."osa04-Osa04_06.MovieDatabaseTest"]
 id = 84485
 checksum = 'e0e968b3fe924fc72943002453131793'
+
+[exercises."osa05-Osa05_01.HelloSession"]
+id = 84486
+checksum = '24be2d30b795695d9c97f364596be12a'
+
+[exercises."osa05-Osa05_02.ReloadHeroes"]
+id = 84487
+checksum = 'a9acb1b2d8b6add974b536367871f1eb'
+
+[exercises."osa05-Osa05_03.EuroShopper"]
+id = 84488
+checksum = 'b96d665a6fa83c6a4e5659eff6b98949'
+
+[exercises."osa05-Osa05_04.HelloAuthentication"]
+id = 84489
+checksum = '1fc74839fc433baf15556a22ccc4ee6f'
+
+[exercises."osa05-Osa05_05.HelloDbAuthentication"]
+id = 84490
+checksum = '32f6498e2d04dc7221417cda7f478b79'
+
+[exercises."osa05-Osa05_06.Reservations"]
+id = 84491
+checksum = 'edd87653171d65730ba34e9deeaa5ec9'
+
+[exercises."osa05-Osa05_07.OnlyForTheSelected"]
+id = 84492
+checksum = 'dc49d54e57ceb534d422858c693900d9'
+
+[exercises."osa05-Osa05_08.HiddenFields"]
+id = 84493
+checksum = '09d48f89cefbc3dcc1e4c83ea6bcfec7'
