@@ -21,11 +21,28 @@ public class ReloadController {
 
     @RequestMapping("*")
     public String reload(Model model) {
+        UUID userUuid = (UUID) session.getAttribute("name");
+        if (userUuid == null) {
+            userUuid = UUID.randomUUID();
+            session.setAttribute("name", userUuid);
+        }
 
-        model.addAttribute("status", new ReloadStatus());
+        String statusName = "" + userUuid;
+        ReloadStatus status = reloadStatusRepository.findByName(statusName);
 
+        if (status == null) {
+            status = new ReloadStatus(statusName, 1); 
+        } else {
+            int currentReloads = status.getReloads();
+            status.setReloads(currentReloads + 1); 
+        }
 
-        model.addAttribute("scores", reloadStatusRepository.findAll());
+        reloadStatusRepository.save(status);
+
+        model.addAttribute("status", status);
+        Pageable pageable = PageRequest.of(0, 5, Sort.by("reloads").descending());
+        model.addAttribute("scores", reloadStatusRepository.findAll(pageable));
         return "index";
     }
+
 }
