@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class OrderController {
 
+    @Autowired
+    private ShoppingCart shoppingCart;
 
     @Autowired
     private ItemRepository itemRepository;
@@ -27,14 +29,19 @@ public class OrderController {
 
     @PostMapping("/orders")
     public String order(@RequestParam String name, @RequestParam String address) {
-
         Order order = new Order();
         order.setName(name);
         order.setAddress(address);
-
-
+        List<OrderItem> orderItems = new ArrayList<>();
+        for (Item item : shoppingCart.getItems().keySet()) {
+            OrderItem orderItem = new OrderItem();
+            orderItem.setItem(item);
+            orderItem.setItemCount(shoppingCart.getItems().get(item));
+            orderItems.add(orderItem);
+        }
+        order.setOrderItems(orderItems);    
         orderRepository.save(order);
-
+        shoppingCart.getItems().clear();
         return "redirect:/orders";
     }
 }
