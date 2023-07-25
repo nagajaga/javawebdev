@@ -1,5 +1,7 @@
 package reservations;
 
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +18,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
-
+    @Autowired
+    private CustomUserDetailsService userDetailsService;
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         // poistetaan csrf-tarkistus käytöstä h2-konsolin vuoksi
@@ -25,15 +28,19 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         http.headers().frameOptions().sameOrigin();
 
         http.authorizeRequests()
-                .antMatchers("/h2-console", "/h2-console/**").permitAll()
+                .antMatchers("/h2-console", "/h2-console/**","/accounts","/accounts/**","/reservations").permitAll()
                 .antMatchers(HttpMethod.GET, "/").permitAll()
                 .antMatchers(HttpMethod.GET, "/reservations").permitAll()
-                .antMatchers(HttpMethod.POST, "/reservations").hasAnyRole()
+                .antMatchers(HttpMethod.POST, "/reservations").hasAnyRole("USER")
                 .anyRequest().authenticated();
         http.formLogin()
                 .permitAll();
     }
 
+    @Autowired
+    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
+    }
 
     @Bean
     public PasswordEncoder passwordEncoder() {
