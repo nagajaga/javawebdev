@@ -28,7 +28,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         http.headers().frameOptions().sameOrigin();
 
         http.authorizeRequests()
-                .antMatchers("/h2-console", "/h2-console/**","/accounts","/accounts/**","/reservations").permitAll()
+                .antMatchers("/h2-console", "/h2-console/**","/accounts","/accounts/**").permitAll()
                 .antMatchers(HttpMethod.GET, "/").permitAll()
                 .antMatchers(HttpMethod.GET, "/reservations").permitAll()
                 .antMatchers(HttpMethod.POST, "/reservations").hasAnyRole("USER")
