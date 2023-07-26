@@ -178,3 +178,31 @@ checksum = 'dc49d54e57ceb534d422858c693900d9'
 [exercises."osa05-Osa05_08.HiddenFields"]
 id = 84493
 checksum = '09d48f89cefbc3dcc1e4c83ea6bcfec7'
+
+[exercises."osa06-Osa06_01.HelloFragments"]
+id = 84494
+checksum = '03ae602e21b19ace8be26a53330bfc6d'
+
+[exercises."osa06-Osa06_02.Playlists"]
+id = 84495
+checksum = 'fa9ec361e061fef0999ce37cde90e4b1'
+
+[exercises."osa06-Osa06_03.Layout"]
+id = 84496
+checksum = 'd7115f85715b1fc87bf393fcba8dd9b7'
+
+[exercises."osa06-Osa06_04.Form"]
+id = 84497
+checksum = '860e2effd9d14463c86eac7b53248290'
+
+[exercises."osa06-Osa06_05.Links"]
+id = 84498
+checksum = '48423ab192326b9eadca8b00ecd12e34'
+
+[exercises."osa06-Osa06_06.Registration"]
+id = 84499
+checksum = '8c69f8ce2dc8646b8b6742ad0b8c24b7'
+
+[exercises."osa06-Osa06_07.ScoreService"]
+id = 84500
+checksum = '3a022af6a2c511ac744944fcf5447d12'
